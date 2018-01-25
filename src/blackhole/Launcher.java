@@ -1,7 +1,6 @@
 package blackhole;
 
 import blackhole.model.BlackHoleEngine;
-import blackhole.view.BlackHoleFrame;
 import blackhole.view.StartFrame;
 
 public class Launcher {

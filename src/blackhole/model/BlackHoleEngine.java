@@ -16,17 +16,6 @@ public class BlackHoleEngine {
 	private int redPoints = 0;
 	private int blackPoints = 0;
 
-	// Debug
-	private void printArr(Field[][] arr) {
-		System.out.println("===================================");
-		for (int i = 0; i < currentFieldSize; ++i) {
-			for (int j = 0; j < currentFieldSize; ++j) {
-				System.out.print(arr[i][j] + "\t");
-			}
-			System.out.println();
-		}
-	}
-
 	// Currently selected field
 	public Point selected() {
 		return clickedOn;
